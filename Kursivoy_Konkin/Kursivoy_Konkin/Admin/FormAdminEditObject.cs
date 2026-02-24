@@ -248,10 +248,7 @@ namespace Kursivoy_Konkin
                         fileName = fileInfo.Name;
                         fullPath = openFileDialog.FileName;
                     }
-                    else
-                    {
-                        MessageBox.Show("Выберите файл JPG или PNG размером не более 2 Мб.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                    
                 }
             }
         }
