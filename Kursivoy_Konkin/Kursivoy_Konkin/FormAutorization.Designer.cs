@@ -40,10 +40,8 @@ namespace Kursivoy_Konkin
             this.buttonCheckCaptcha2 = new System.Windows.Forms.Button();
             this.textBoxCaptcha = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.captchaIMG)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -157,20 +155,10 @@ namespace Kursivoy_Konkin
             this.label3.TabIndex = 10;
             this.label3.Text = "Введите каптчу";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(495, 33);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-25, 83);
+            this.pictureBox2.Location = new System.Drawing.Point(-25, 24);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(393, 336);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -184,7 +172,6 @@ namespace Kursivoy_Konkin
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1273, 574);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonCheckCaptcha2);
             this.Controls.Add(this.textBoxCaptcha);
             this.Controls.Add(this.label3);
@@ -204,7 +191,6 @@ namespace Kursivoy_Konkin
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAutorization_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.captchaIMG)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -223,7 +209,6 @@ namespace Kursivoy_Konkin
         private System.Windows.Forms.Button buttonCheckCaptcha2;
         private System.Windows.Forms.TextBox textBoxCaptcha;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
