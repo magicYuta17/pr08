@@ -157,7 +157,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 20.25F);
-            this.label4.Location = new System.Drawing.Point(27, 417);
+            this.label4.Location = new System.Drawing.Point(12, 397);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(556, 47);
             this.label4.TabIndex = 51;
@@ -167,7 +167,7 @@
             // 
             this.buttonAddPhoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
             this.buttonAddPhoto.Font = new System.Drawing.Font("Comic Sans MS", 20.25F);
-            this.buttonAddPhoto.Location = new System.Drawing.Point(698, 359);
+            this.buttonAddPhoto.Location = new System.Drawing.Point(641, 359);
             this.buttonAddPhoto.Margin = new System.Windows.Forms.Padding(4);
             this.buttonAddPhoto.Name = "buttonAddPhoto";
             this.buttonAddPhoto.Size = new System.Drawing.Size(459, 85);
@@ -180,7 +180,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
             this.button3.Font = new System.Drawing.Font("Comic Sans MS", 20.25F);
-            this.button3.Location = new System.Drawing.Point(698, 452);
+            this.button3.Location = new System.Drawing.Point(624, 452);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(459, 85);
@@ -193,7 +193,7 @@
             // 
             this.pictureBox1.Image = global::Kursivoy_Konkin.Properties.Resources.picture;
             this.pictureBox1.InitialImage = global::Kursivoy_Konkin.Properties.Resources.picture;
-            this.pictureBox1.Location = new System.Drawing.Point(699, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(591, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(400, 300);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
